@@ -14,7 +14,7 @@
           "group": "indicators",
           "title": "4444",
           "label": "4444",
-          "color": "#6a9169"
+          "color": "#8a00d1"
         },
         {
           "id": "/api/3/alerts/949d4fe7-adeb-4333-8fed-43af72c7668f",
@@ -23,6 +23,22 @@
           "title": "Metasploit Meterpreter Connection Attempt",
           "label": "Metasploit Meterpret...",
           "color": "#e31b1d"
+        },
+        {
+            "id": "/api/4/alerts/949d4fe7-adeb-4333-8fed-43af72c7668f",
+            "moduleType": "alerts",
+            "group": "alerts",
+            "title": "Metasploit Meterpreter Connection Attempt",
+            "label": "Metasploit Meterpret...",
+            "color": "#e31b1d"
+        },
+        {
+            "id": "/api/5/alerts/949d4fe7-adeb-4333-8fed-43af72c7668f",
+            "moduleType": "alerts",
+            "group": "alerts",
+            "title": "Metasploit Meterpreter Connection Attempt",
+            "label": "Metasploit Meterpret...",
+            "color": "#0000f0"
         },
         {
           "id": "/api/3/incidents/c279bf4c-e565-4544-87b4-9681490ab072",
@@ -40,6 +56,14 @@
           "source": "/api/3/incidents/c279bf4c-e565-4544-87b4-9681490ab072",
           "target": "/api/3/alerts/949d4fe7-adeb-4333-8fed-43af72c7668f"
         },
+        {
+            "source": "/api/3/incidents/c279bf4c-e565-4544-87b4-9681490ab072",
+            "target": "/api/4/alerts/949d4fe7-adeb-4333-8fed-43af72c7668f"
+          },
+          {
+            "source": "/api/3/incidents/c279bf4c-e565-4544-87b4-9681490ab072",
+            "target": "/api/5/alerts/949d4fe7-adeb-4333-8fed-43af72c7668f"
+          },
         {
           "source": "/api/3/alerts/949d4fe7-adeb-4333-8fed-43af72c7668f",
           "target": "/api/3/indicators/8914d9f6-bade-4f59-97d1-ac1b9049bb4c"

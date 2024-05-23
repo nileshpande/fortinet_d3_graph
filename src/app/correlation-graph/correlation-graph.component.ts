@@ -30,8 +30,7 @@ export class CorrelationGraphComponent implements AfterViewInit {
 
   constructor() {}
   ngAfterViewInit(): void {
-    console.log('Chart Container:', this.chartContainer);
-    //throw new Error('Method not implemented.');
+    console.log('Chart Container:', this.chartContainer); 
   }
 
 
@@ -58,20 +57,7 @@ export class CorrelationGraphComponent implements AfterViewInit {
       this.updateGraph();
     }
   }
-  
-  // ngAfterViewInit(): void {
-  //   console.log("ngAfterViewInit of correlation");
-  //   if (!this.chartContainer) {
-  //     console.error('Chart container is not available.');
-  //     return;
-  //   }
-  //   if(this.edges)
-  //     {
-  //       this.createGraph();
-  //        this.contextMenu = document.getElementById('contextMenu');
-  //     }
-  // }
-
+   
   createGraph(): void { 
     console.log('Nodes:', this.nodes);
     console.log('Edges:', this.edges);
